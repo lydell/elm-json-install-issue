@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "scripts": {
+    "postinstall": "echo Hello"
+  },
+  "devDependencies": {
+    "elm-json": "0.2.7"
+  }
+}
