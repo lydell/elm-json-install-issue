@@ -11,3 +11,10 @@
 
 4. Remove postinstall script in package.json of this repo. Now `npm ci` works.
 
+Update: A workaround is to add this to your package.json:
+
+```
+"name": "whatever"
+```
+
+https://stackoverflow.com/questions/59777226/npm-ci-throws-exception-cannot-read-property-length-of-undefined
